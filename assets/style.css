@@ -33,6 +33,7 @@ nav a{
 .hero p{
     font-family:Arial, sans-serif;
     line-height:1.6;
+    font-size:35px;
 
 }
 
@@ -43,7 +44,7 @@ nav a{
     padding:12px 25px;
     border-radius:5px;
     cursor:pointer;
-}
+    }
 
 .columns{
     color:black;
