@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    font-family: Times New Roman,sans-serif;
+    background-color:rgb(75, 208, 253);
+    color:rgb(248, 246, 246);
+}
+nav{
+    background-color: rgb(17, 12, 104);
+    padding: 30px;
+    text-align: center;
+}
+
+nav a{
+    color:rgb(250, 249, 249);
+    text-decoration:none;
+    margin: 15px;
+    font-size: 16px;
+}
+
+.hero{
+    background-color:rgb(75, 208, 253);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+    
+}
+.hero h1{
+    font-size:40px;
+    margin-bottom:15px;
+
+}
+
+.hero p{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+
+}
+
+.hero button{
+    background-color:forestgreen;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.columns{
+    color:black;
+    font-family:Times New Roman;
+    font-size:20px;
+    text-align:center;
+    margin:10px;
+    display: flex;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.columns div{
+    flex:1
+}
+
+.left{
+    text-align:center;
+    background-color:white;
+    padding:10px;
+    border-radius:5px;
+   
+}
+
+.center{
+    text-align:center;
+    background-color:white;
+    padding:10px;
+    border-radius:5px;
+   
+}
+
+.right{
+    text-align:center;
+    background-color:white;
+    padding:10px;
+    border-radius:5px;
+}
+
+.hero-contact{
+    font:Times New Roman;
+    color:black;
+    background-color:white;
+    padding-top:45px 20px;
+    text-align:center;
+    
+    
+
+}
+
+.hero-contact p{
+    font:Times New Roman;
+    font-size:15px;
+}
+
+.hero-contact h1{
+    font:Times New Roman;
+    font-size:30px;
+}
+
+.main-section{
+    display:flex;
+    gap: 30px;
+    padding:40px;
+}
+.info, .form{
+    background-color:rgb(23, 143, 176);
+    padding:25px;
+    flex:1;
+    border-radius:10px;
+}
+
+.info img{
+    width:100%;
+    
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:5px;
+    font:Times New Roman;
+    font-size:30px;
+    
+
+    
+
+
+}
+
+.form input{
+    width:100%;
+    border-radius:3px;
+    border:none;
+}
+
+.form textarea{
+    width:100%;
+    height:500px;
+    border-radius:5px;
+    border:none
+}
+
+.info h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size:40px;
+    color:white;
+    text-align:center;
+
+}
+
+.info p{
+    font:Times New Roman;
+    font-size:20px;
+    color:white;
+
+}
